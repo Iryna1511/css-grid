@@ -4,4 +4,6 @@
 
 .container {
   display: grid;
+  gap: 10px;
+  grid-template-columns: 100px repeat(2, 1fr 3fr) 250px;
 }
